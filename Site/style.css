@@ -1,0 +1,60 @@
+body {
+	background-image: url(back.png);
+}
+
+
+.topmenu {
+	width: 1919px;
+	height: 104px;
+	background-color: rgba(202,219,237,.7);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+
+}
+
+.item ul {
+	list-style: none;
+
+}
+
+
+
+.item li {
+	font-family: Roboto;
+	font-size: 21px;
+	color: #2c71b8;
+	float: left;
+	width: 140px;
+	height: 50px;
+	display: block;
+
+}
+
+.item ul:after {
+	content: "";
+	clear:both;
+	display: block;
+}
+
+
+.logo img {
+	display: block;
+	width: 300px;
+	height: 50px;
+	float: left;
+
+}
+
+.cart img {
+	display: block;
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+
+.search {
+	float: left;
+	
+}
